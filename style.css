@@ -138,7 +138,7 @@ img{
 }
 
 img:hover{
-	transform: skewY(-2deg);
+	transform: skewY(-1deg);
 }
 
 h5{
@@ -148,4 +148,22 @@ h5{
 
 }
 
+/* Tablets and under */
 
+@media(max-width: 768px) {
+.grid-four {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	img{
+		width: 200px;
+  	height: 250px;
+	}
+
+@media(max-width: 768px) {
+nav {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	img{
+		width: 200px;
+  	height: 250px;
+	}

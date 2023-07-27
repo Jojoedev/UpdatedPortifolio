@@ -151,7 +151,7 @@ img{
 
 img:hover{
 	transform: scale(1.1);
-	transition: .3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 h5{

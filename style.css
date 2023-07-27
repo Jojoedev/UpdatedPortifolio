@@ -9,6 +9,8 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #333;
 	line-height: 1.6;
+	background-color: teal;
+
 }
 
 
@@ -82,6 +84,7 @@ justify-content: space-between;
 .showcase{
 	background-color: teal;
 	color: #fff;
+	height: 250px;
 }
 
 /*
@@ -109,7 +112,7 @@ justify-content: space-between;
 
 .projects{
 	background-color: #d4cfc7;
-	height: 300px;
+	height: 350px;
 }
 
 #contact{
@@ -131,10 +134,14 @@ justify-content: space-between;
 img{
 	padding-top: 10px;
 	width: 400px;
-	height: 220px;
+	height: 250px;
+	padding: 10px;
 	
-	padding: 5px;
-	size: 200px;
+}
+
+#project{
+	color: blue;
+	font-weight: bold; 
 }
 
 img:hover{
@@ -150,20 +157,119 @@ h5{
 
 /* Tablets and under */
 
-@media(max-width: 768px) {
+@media(max-width: 999px) {
 .grid-four {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 	}
 	img{
-		width: 200px;
-  	height: 250px;
+		width: 250px;
+  		height: 250px;
+
 	}
 
+	.grid{
+		font-size: 16px;
+	}
+
+	a{
+		font-size: 20px;
+	}
+
+	.about{
+		font-size: 18px;
+	}
+	.contact{
+		font-size: 15px;
+	}
+}
+
+
+
+
+
 @media(max-width: 768px) {
-nav {
-		grid-template-columns: repeat(2, 1fr);
+.grid-four {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	a{
+		width: 150px;
+  		height: 180px;
+	}
+	.grid{
+		font-size: 15px;
+		
+	}
+	.about{
+		font-size: 17px;
+	}
+	a{
+		font-size: 18px;
+	}
+	.logo{
+		font-size: 25px;
+	}
+	h5{
+		font-size: 14px;
+	}
+	i{
+		height: 10px;
+		width: 10px;
+	}
+}
+
+
+
+@media(max-width: 680px) {
+.grid-four {
+		grid-template-columns: repeat(3, 1fr);
 	}
 	img{
-		width: 200px;
-  	height: 250px;
+		width: 120px;
+  		height: 150px;
 	}
+
+	h5{
+		font-size: 12px;
+	}
+}
+
+
+
+@media(max-width: 590px) {
+ .grid-four {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	img{
+		width: 80px;
+  		height: 120px;
+	}
+	.about{
+		font-size: 12px;
+	}
+	.grid{
+		font-size: 10px;
+	}
+	a {
+		font-size: 12px;
+	}
+	h5{
+		font-size: 10px;
+	}
+	#project{
+		font-size: 14px;
+	}
+	
+	footer{
+		font-size: 7px;
+	}
+	.contact{
+	font-size: 8px;
+	}
+}
+
+
+.contact{
+	font-size: 20px;
+	color: #fff;
+
+}

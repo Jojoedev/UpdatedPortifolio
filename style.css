@@ -197,6 +197,10 @@ h5{
 	padding: 20px;	
 }
 
+.showcase div p {
+		font-size: 18px;
+	}
+
 }
 
 
@@ -224,8 +228,8 @@ h5{
 		font-size: 10px;
 		text-align: center;
 	}
-	.showcase{
-		font-size: 10px;
+	.showcase div p {
+		font-size: 13px;
 	}
 
 	img{
@@ -244,6 +248,9 @@ h5{
 	padding: 20px;	
 
 }
+.showcase div p {
+		font-size: 12px;
+	}
 }
 
 #email{

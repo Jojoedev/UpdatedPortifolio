@@ -147,6 +147,7 @@ img{
 img:hover{
 	transform: scale(1.1);
 	transition: 0.3s ease-in-out;
+	cursor: pointer;
 }
 
 h5{
@@ -195,6 +196,7 @@ h5{
 	width: 350px;
 	height: 300px;
 	padding: 20px;	
+	
 }
 
 .showcase div p {

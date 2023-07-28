@@ -142,6 +142,8 @@ img{
 #project{
 	color: blue;
 	font-weight: bold; 
+	text-decoration: underline red;
+
 }
 
 img:hover{

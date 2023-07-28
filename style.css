@@ -113,6 +113,7 @@ justify-content: space-between;
 .projects{
 	background-color: #d4cfc7;
 	height: 350px;
+	cursor: pointer;
 }
 
 #contact{
@@ -122,6 +123,7 @@ justify-content: space-between;
 	padding: 0;
 	margin: 0;
 	overflow: auto;
+	cursor: pointer;
 
 }
 

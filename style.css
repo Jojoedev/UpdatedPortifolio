@@ -145,6 +145,11 @@ img{
 	text-decoration: underline red;
 
 }
+#contact{
+	font-size: 25px;
+	font-weight: 20px;
+	text-decoration: underline gold 2px;
+}
 
 img:hover{
 	transform: scale(1.1);
@@ -255,7 +260,16 @@ h5{
 .showcase div p {
 		font-size: 12px;
 	}
+
+#contact{
+	font-size: 15px;
+	font-weight: 14px;
 }
+
+
+}
+
+
 
 #email{
 		text-align: right;

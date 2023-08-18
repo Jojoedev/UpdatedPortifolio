@@ -103,7 +103,7 @@ justify-content: space-between;
 h3{
 	padding: 10px;
 	text-decoration: underline;
-	color: red;
+	
 }
 h3 a{
 	color: blue;
@@ -126,6 +126,7 @@ h5{
 
 .projects div ul li {
  list-style-type: square;
+ padding-left: 5px;
 
 }
 
@@ -176,7 +177,7 @@ img{
 #contact{
 	font-size: 20px;
 	font-weight: 15px;
-	text-decoration: underline gold 2px;
+	text-decoration: underline 2px;
 }
 
 img:hover{

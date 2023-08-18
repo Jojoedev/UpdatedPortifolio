@@ -100,6 +100,14 @@ justify-content: space-between;
 }
 */
 
+h3{
+	padding: 10px;
+	text-decoration: underline;
+	color: red;
+}
+h3 a{
+	color: blue;
+}
 
 .grid{
 	display: grid;
@@ -110,9 +118,24 @@ justify-content: space-between;
 
 }
 
+h5{
+	padding: 10px;
+	text-align: left;
+
+}
+
+.projects div ul li {
+ list-style-type: square;
+
+}
+
+.project-heading{
+	font-size: 20px;
+	text-align: left;
+}
 .projects{
 	background-color: #d4cfc7;
-	height: 350px;
+	height: auto;
 	cursor: pointer;
 }
 
@@ -120,12 +143,15 @@ justify-content: space-between;
 	background-color: teal;
 	height: 50px;
 	color: #fff;
+
 	padding: 0;
 	margin: 0;
 	overflow: auto;
 	cursor: pointer;
 
 }
+
+
 
 .grid-four {
 	display: grid;
@@ -148,8 +174,8 @@ img{
 
 }
 #contact{
-	font-size: 25px;
-	font-weight: 20px;
+	font-size: 20px;
+	font-weight: 15px;
 	text-decoration: underline gold 2px;
 }
 
@@ -186,8 +212,8 @@ h5{
 		font-size: 15px;
 	}
 	.container div h5{
-		font-size: 10px;
-		text-align: center;
+		font-size: 15px;
+		text-align: left;
 	}
 	footer div p {
 	font-size: 10px;	
@@ -236,8 +262,8 @@ h5{
 		font-size: 15px;
 	}
 	.container div h5{
-		font-size: 10px;
-		text-align: center;
+		font-size: 15px;
+		text-align: left;
 	}
 	.showcase div p {
 		font-size: 13px;

@@ -227,13 +227,14 @@ height: auto;
 		text-align: left;
 	}
 	footer div p {
-	font-size: 20px;	
+	font-size: auto;	
 	color: #fff;
+	font-weight: lighter;
 	}
 
 	footer div i{
-		height: 20px;
-		width: 20px;
+		height: auto;
+		width: auto;
 
 	}
 

@@ -272,7 +272,7 @@ h5{
 
 	img{
 	
-	width: 400px;
+	width: 380px;
 	height: 400px;
 	padding: 20px;	
 }
@@ -281,7 +281,7 @@ h5{
 @media(max-width: 487px){
 	img{
 	
-	width: 400px;
+	width: 350px;
 	height: 400px;
 	padding: 20px;	
 

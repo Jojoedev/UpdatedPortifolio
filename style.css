@@ -177,7 +177,7 @@ img{
 #project{
 	color: blue;
 	font-weight: bold; 
-	text-decoration: underline red;
+	
 
 }
 #contact{
@@ -247,7 +247,7 @@ height: auto;
 
 .showcase div p {
 		font-size: auto;
-		
+
 	}
 .showcase{
 height: auto;	

@@ -191,8 +191,8 @@ img{
 }
 
 img:hover{
-	transform: scale(1.1);
-	transition: 0.3s ease-in-out;
+	/*transform: scale(1.1);*/
+	/*transition: 0.3s ease-in-out;*/
 	cursor: pointer;
 }
 
@@ -244,7 +244,7 @@ height: auto;
 
 	img{
 	
-	width: 350px;
+	width: auto;
 	height: 300px;
 	padding: 20px;	
 	

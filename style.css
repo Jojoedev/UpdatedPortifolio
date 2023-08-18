@@ -170,7 +170,8 @@ h5{
 img{
 	
 	width: 350px;
-	height: 250px;	
+	height: 250px;
+	padding: auto;	
 }
 
 #project{
@@ -196,6 +197,10 @@ h5{
 	text-align: center;
 	color: green;
 
+}
+
+.showcase{
+height: auto;	
 }
 
 /* Tablets and under */
@@ -243,6 +248,9 @@ h5{
 .showcase div p {
 		font-size: 18px;
 	}
+.showcase{
+height: auto;	
+}
 
 }
 
@@ -299,7 +307,9 @@ h5{
 	font-size: 15px;
 	font-weight: 14px;
 }
-
+ .showcase{
+ 	height: auto;
+ }
 
 }
 

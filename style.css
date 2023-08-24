@@ -6,7 +6,7 @@
 	margin: 0;
 	font-size: 18px;
 	background-image: url(backgrd.jpg);
-	 background-repeat: no-repeat;
+	background-repeat: repeat;
 
 
 }
@@ -148,13 +148,13 @@ h5{
 
 }
 .projects{
-	background-color: teal;
+	/*background-color: teal;*/
 	height: auto;
 	cursor: pointer;
 }
 
 #contact{
-	background-color: teal;
+	/*background-color: teal;*/
 	height: 50px;
 	color: #fff;
 

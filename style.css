@@ -126,7 +126,7 @@ h3 a{
 }
 
 h5{
-	padding: 10px;
+	padding: 20px;
 	text-align: left;
 	
 
@@ -136,8 +136,10 @@ h5{
  list-style-type: square;
  padding-left: 5px;
  color: #fff;
- 
+}
 
+.projects div ul {
+ padding: 10px;
 }
 
 .project-heading{

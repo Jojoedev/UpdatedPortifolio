@@ -88,7 +88,8 @@ justify-content: space-between;
 }
 
 .showcase{
-	background-color: #1A237E;
+	/*background-color: #000033;*/
+	background-color: #000033;
 	color: #fff;
 	height: 250px;
 }

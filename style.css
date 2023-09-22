@@ -5,8 +5,8 @@
 	padding: 0;
 	margin: 0;
 	font-size: 18px;
-	background-image: url(backgrd.jpg);
-	background-repeat: repeat;
+	
+	
 
 
 }
@@ -14,7 +14,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #000099;
 	line-height: 1.6;
-	/*background-color: teal;*/
+	background-color: #000033;
 
 }
 
@@ -47,8 +47,9 @@ p{
 	border-bottom: 2px gold solid;
 }
 
-.navbar{
-	background-color: teal;
+.navbar {
+	/*background-color: teal;*/
+	background-image: url(backgrd.jpg);
 	color: #fff;
 	height: 150px;
 }
@@ -87,7 +88,7 @@ justify-content: space-between;
 }
 
 .showcase{
-	background-color: teal;
+	background-color: #1A237E;
 	color: #fff;
 	height: 250px;
 }
@@ -149,6 +150,8 @@ h5{
 	color: #fff;
 
 }
+
+
 .projects{
 	/*background-color: teal;*/
 	height: auto;
@@ -156,7 +159,7 @@ h5{
 }
 
 #contact{
-	/*background-color: teal;*/
+	
 	height: 50px;
 	color: #fff;
 
@@ -236,13 +239,14 @@ height: auto;
 		font-size: auto;
 		text-align: left;
 	}
-	footer div p {
+
+	#container footer div p {
 	font-size: auto;	
 	color: #fff;
 	font-weight: lighter;
 	}
 
-	footer div i{
+	footer div p{
 		height: auto;
 		width: auto;
 
@@ -255,6 +259,14 @@ height: auto;
 	padding: 20px;	
 	
 }
+footer, a, #email{
+
+	padding: 0;
+	font-size: auto;
+	
+	
+}
+
 
 .showcase div p {
 		font-size: auto;
@@ -265,9 +277,6 @@ height: auto;
 }
 
 }
-
-
-
 
 
 
@@ -299,6 +308,13 @@ height: auto;
 	height: 400px;
 	padding: 20px;	
 }
+
+footer, a, #email{
+	display: inline-grid;
+	padding: 0;
+	text-align: center;
+	align-items: center;
+}
 }
 
 @media(max-width: 487px){
@@ -312,11 +328,18 @@ height: auto;
 
 #contact{
 	font-size: auto;
-	
+
 }
  .showcase{
  	height: auto;
  }
+
+footer, a, #email{
+
+	padding: 0;
+	text-align: center;
+	align-items: center;
+}
 
 }
 
@@ -331,4 +354,8 @@ height: auto;
 	font-size: auto;
 	color: #fff;
 
+}
+
+footer, a{
+	color: white;
 }

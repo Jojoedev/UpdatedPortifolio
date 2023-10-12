@@ -14,7 +14,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #000099;
 	line-height: 1.6;
-	background-color: #000033;
+	background-color: #000066;
 
 }
 
@@ -89,7 +89,7 @@ justify-content: space-between;
 
 .showcase{
 	/*background-color: #000033;*/
-	background-color: #000033;
+	background-color: #000066 ;
 	color: #fff;
 	height: 250px;
 }
@@ -341,6 +341,7 @@ footer, a, #email{
 	padding: 0;
 	text-align: center;
 	align-items: center;
+
 }
 
 }
@@ -360,4 +361,8 @@ footer, a, #email{
 
 footer, a{
 	color: white;
+}
+
+footer{
+	background-color: teal;
 }

@@ -178,21 +178,27 @@ h5{
 	grid-gap: 30px;
 	/*grid-template-columns: repeat(3, 1fr);*/
 	/*grid-template-columns: auto 1fr 1fr; */
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	border: 1px solid teal;
+	align-content: center;
 }
 
 img{
 	
-	width: 350px;
-	height: 350px;
-	padding: auto;	
+	width: 400px;
+	height: 300px;
+		
 }
 
 #project{
 	color: #fff;;
 	font-weight: lighter;
 	
+
+}
+
+.anchor:hover{
+	color: red;
 
 }
 #contact{
@@ -203,7 +209,7 @@ img{
 
 img:hover{
 	transform: scale(1.1);
-	transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out; 
 	cursor: pointer;
 }
 

@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-size: 18px;
+	font-size: 1.1rem;
 	
 	
 
@@ -15,6 +15,7 @@ body{
 	color: #000099;
 	line-height: 1.6;
 	background-color: #000066;
+	opacity: 0.8;
 
 }
 
@@ -51,7 +52,7 @@ p{
 	/*background-color: teal;*/
 	background-image: url(backgrd.jpg);
 	color: #fff;
-	height: 150px;
+	height: 10vh;
 }
 
 .navbar ul{
@@ -91,7 +92,7 @@ justify-content: space-between;
 	/*background-color: #000033;*/
 	background-color: #000066 ;
 	color: #fff;
-	height: 250px;
+	height: 250vh;
 }
 
 /*
@@ -175,11 +176,11 @@ h5{
 
 .grid-four {
 	display: grid;
-	grid-gap: 30px;
+	grid-gap: 20px;
 	/*grid-template-columns: repeat(3, 1fr);*/
 	/*grid-template-columns: auto 1fr 1fr; */
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	border: 1px solid teal;
+	/*border: 1px solid teal; */
 	align-content: center;
 }
 
@@ -187,6 +188,7 @@ img{
 	
 	width: 400px;
 	height: 300px;
+	
 		
 }
 
@@ -370,5 +372,5 @@ footer, a{
 }
 
 footer{
-	background-color: teal;
+	
 }
